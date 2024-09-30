@@ -8,7 +8,7 @@ function Footer(){
                 <p> December 12th 2024</p>
             </div>
             <div className="footer-brand">
-                <p>Digital Wedding Invitation by Vannes</p>
+                <p>Digital Wedding Invitation by Vannes.</p>
             </div>
         </div>
         </>
