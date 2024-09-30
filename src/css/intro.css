@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center; /* Gambar diposisikan di tengah */
+    position: relative;
+    background-color: red;
+    color: white; /* Mengubah warna teks menjadi putih */
+    text-align: center;
+}
+
+.image-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+.image-title>h1{
+    font-family: "Caramel", cursive;
+    font-weight: 400;
+    font-size: 64px;
+    /* background-color: red; */
+    height: fit-content;
+    position: relative;
+    color: #4A4A4A;
+    top:5%;
+}
+.image-title>h3{
+    font-family: "Caramel", cursive;
+    font-weight: 400;
+    font-size: 36px;
+    font-style: normal;
+    color: #4A4A4A;
+}
+.image-title>p{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    color: #4A4A4A;
+    margin-top:10px;
+}
+
+.button-open {
+    z-index: 2;
+    margin-bottom: 200px;
+    padding: 15px 80px;
+    background-color: #FFFFFF;
+    color: #4A4A4A;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.button-open:hover {
+    background-color: #A08C81;
+    opacity: 100%;
+    color: white;
+}

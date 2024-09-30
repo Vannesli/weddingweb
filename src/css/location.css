@@ -1,0 +1,60 @@
+.section-location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    background-color: #A08C81;
+    height: 80vh;
+    position: relative;
+}
+.title-location{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+.title-location>h1{
+    font-family: "Caramel", cursive;
+    font-weight: 400;
+    font-size: 64px;
+    font-style: normal;
+    color: white;
+}
+.maps-location{
+    margin-top: 20px;
+    
+}
+.maps-location>iframe{
+    border-radius: 40px;
+}
+.detail-location{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.detail-location>p{
+    width: 60%;
+    text-transform: capitalize;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    color: white;
+}
+
+.Bunga-kanan{
+    position: absolute;
+    width: 30%;
+    bottom:0;
+    right: 0;
+}
+.Bunga-kiri{
+    position: absolute;
+    width: 30%;
+    bottom:0;
+    left: 0;
+}
