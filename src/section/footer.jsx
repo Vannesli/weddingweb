@@ -9,7 +9,7 @@ function Footer(){
             </div>
             <div className="footer-brand">
                 <p>Digital Wedding Invitation by Vannes.</p>
-                {/* tes */}
+                
             </div>
         </div>
         </>
